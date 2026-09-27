@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 export function Introduction() {
   return (
@@ -8,10 +8,10 @@ export function Introduction() {
           Katie <span>Ho</span>
         </h1>
         <p className="intro-role">
-          Software Engineer <span aria-hidden="true">·</span> Data Science{' '}
+          Software Engineering <span aria-hidden="true">·</span> Data Science{' '}
         </p>
         <p className="intro-summary">
-          I build thoughtful automation, data, and immersive experiences.
+           <br></br>
         </p>
 
         <div className="intro-socials" aria-label="Contact links">
@@ -37,15 +37,19 @@ export function Introduction() {
               <small>linkedin.com/in/katho4/</small>
             </span>
           </a>
-          <div className="intro-phone">
+          <a
+            href="https://github.com/k4tho"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span className="intro-social-icon" aria-hidden="true">
-              <Phone size={18} strokeWidth={1.9} />
+              <b>GH</b>
             </span>
             <span>
-              <strong>Phone</strong>
-              <small>+1 (714) 933-0944</small>
+              <strong>GitHub</strong>
+              <small>github.com/k4tho</small>
             </span>
-          </div>
+          </a>
         </div>
       </div>
 

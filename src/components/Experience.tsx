@@ -4,8 +4,11 @@ const experienceItems = [
   {
     company: 'Annenberg Media',
     role: 'Web Team Developer',
-    dates: 'August 2026 - Current',
+    dates: 'September 2026 - Current',
     descriptions: [
+      'Develop and maintain frontend features using HTML, CSS, JavaScript, and React for Annenberg Media’s digital publishing platform.',
+      'Translate website tickets submitted by journalists into responsive design updates, bug fixes, and functional improvements that support editorial needs.',
+      'Redesign landing pages and implement reusable interface components to improve site usability, visual consistency, and content discovery.',
     ],
   },
   {
@@ -34,9 +37,10 @@ const experienceItems = [
     role: 'Research Assistant',
     dates: 'May 2023 - June 2025',
     descriptions: [
-      'Developed immersive Virtual Reality interfaces in Unity that enable users to manipulate objects using non-predefined gestures, supporting 12 variations of common VR gestures to improve interaction intuitiveness and user experience.',
-      'Developed Python-based data processing pipelines using Pandas, NumPy, and Plotly to clean, analyze, and visualize movement patterns and interaction behaviors across 40 research subjects.',
-      'Engineered machine learning pipelines to classify users unconstrained gestures based on motion characteristics such as movement, speed, duration, and curvature, achieving 88-95% classification accuracy. ',
+      'Developed end-to-end machine-learning pipelines to classify unconstrained VR gestures from motion data, achieving 88–95% accuracy across 12 variations of pan, rotate, and zoom interactions.',
+      'Engineered temporal and spatial features—including velocity, duration, distance, curvature, and trajectory—and trained and evaluated Random Forest, XGBoost, and Temporal Convolutional Network models.',
+      'Built Python data workflows using Pandas and NumPy to clean, normalize, and transform movement data collected from more than 40 research participants into model-ready datasets.',
+      'Integrated trained models into a Unity testing environment that captured live movement, predicted the user’s intended gesture, and applied the corresponding transformation to a virtual object in real time.',
     ],
   },
   {
