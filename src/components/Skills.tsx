@@ -37,7 +37,7 @@ const skillGroups: SkillGroup[] = [
       'Pandas',
       'TensorFlow',
       'PyTorch',
-      'Scikit',
+      'Scikit-Learn',
       'Seaborn',
       '.NET',
     ],

@@ -30,6 +30,8 @@ const experienceItems = [
       'Conducted exploratory data analysis on platform usage and engagement data using SQL and Azure-based analytics tools to inform usability improvements such as identifying underused features and unintuitive navigation patterns.',
       'Developed and deployed responsive React components (TypeScript, Redux) from Figma prototypes, integrated with backend APIs to ensure scalable and maintainable UI/UX.',
       'Automated builds and QA test pipelines via Azure DevOps, ensuring fast and reliable CI/CD processes with quality gates and unit test coverage.',
+      'Implemented feature-specific UI behavior and access controls, including premium feature gating and conditional rendering based on user and account attributes.',
+      'Worked on interactive interface features including dashboards, filtering, selection controls, tooltips, navigation behavior, and responsive UI states.'
     ],
   },
   {
